@@ -1,0 +1,12 @@
+[prune]
+  non-go = true
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "github.com/go-redis/redis"
+  version = "6.13.2"
+
+[[constraint]]
+  branch = "master"
+  name = "golang.org/x/sys"
